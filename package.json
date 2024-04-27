@@ -50,11 +50,16 @@
     "ts-generator": "^0.1.1",
     "ts-node": "^8.5.4",
     "typechain": "^4.0.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "solc": "0.7.6"
   },
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "flatten:factory": "hardhat flatten contracts/UniswapV3Factory.sol > flattened/UniswapV3Factory.sol"
+    "flatten:factory": "hardhat flatten contracts/UniswapV3Factory.sol > flattened/UniswapV3Factory.sol",
+    "solc:help": "solcjs --help",
+    "solc:version": "solcjs --version",
+    "solc": "solc7 flattened/UniswapV3Factory.sol --combined-json bin,bin-runtime,srcmap,srcmap-runtime,abi,userdoc,devdoc,metadata,hashes --optimize -o ./flattened --overwrite",
+    "abigen": "abigen --pkg pkg --out gen/uniswap_v3_factory.go --combined-json ./flattened/combined.json"
   }
 }
