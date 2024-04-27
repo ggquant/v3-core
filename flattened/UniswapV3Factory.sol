@@ -2,7 +2,6 @@
 
 // File contracts/interfaces/IUniswapV3Factory.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title The interface for the Uniswap V3 Factory
@@ -84,7 +83,6 @@ interface IUniswapV3Factory {
 
 // File contracts/interfaces/IUniswapV3PoolDeployer.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title An interface for a contract that is capable of deploying Uniswap V3 Pools
@@ -114,7 +112,6 @@ interface IUniswapV3PoolDeployer {
 
 // File contracts/interfaces/pool/IUniswapV3PoolImmutables.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Pool state that never changes
@@ -153,7 +150,6 @@ interface IUniswapV3PoolImmutables {
 
 // File contracts/interfaces/pool/IUniswapV3PoolState.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Pool state that can change
@@ -273,7 +269,6 @@ interface IUniswapV3PoolState {
 
 // File contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Pool state that is not stored
@@ -317,7 +312,6 @@ interface IUniswapV3PoolDerivedState {
 
 // File contracts/interfaces/pool/IUniswapV3PoolActions.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Permissionless pool actions
@@ -424,7 +418,6 @@ interface IUniswapV3PoolActions {
 
 // File contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Permissioned pool actions
@@ -451,7 +444,6 @@ interface IUniswapV3PoolOwnerActions {
 
 // File contracts/interfaces/pool/IUniswapV3PoolEvents.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Events emitted by a pool
@@ -576,7 +568,6 @@ interface IUniswapV3PoolEvents {
 
 // File contracts/interfaces/IUniswapV3Pool.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 
@@ -602,7 +593,6 @@ interface IUniswapV3Pool is
 
 // File contracts/NoDelegateCall.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
 
 /// @title Prevents delegatecall to a contract
@@ -633,7 +623,6 @@ abstract contract NoDelegateCall {
 
 // File contracts/libraries/LowGasSafeMath.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.7.0;
 
 /// @title Optimized overflow and underflow safe math operations
@@ -683,7 +672,6 @@ library LowGasSafeMath {
 
 // File contracts/libraries/SafeCast.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Safe casting methods
@@ -715,7 +703,6 @@ library SafeCast {
 
 // File contracts/libraries/TickMath.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0 <0.8.0;
 
 /// @title Math library for computing sqrt prices from ticks and vice versa
@@ -924,7 +911,6 @@ library TickMath {
 
 // File contracts/libraries/LiquidityMath.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Math library for liquidity
@@ -945,7 +931,6 @@ library LiquidityMath {
 
 // File contracts/libraries/Tick.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0 <0.8.0;
 
 
@@ -1130,7 +1115,6 @@ library Tick {
 
 // File contracts/libraries/BitMath.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title BitMath
@@ -1228,7 +1212,6 @@ library BitMath {
 
 // File contracts/libraries/TickBitmap.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0;
 
 /// @title Packed tick initialized state library
@@ -1308,7 +1291,6 @@ library TickBitmap {
 
 // File contracts/libraries/FullMath.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.0 <0.8.0;
 
 /// @title Contains 512-bit math functions
@@ -1436,7 +1418,6 @@ library FullMath {
 
 // File contracts/libraries/FixedPoint128.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.4.0;
 
 /// @title FixedPoint128
@@ -1448,7 +1429,6 @@ library FixedPoint128 {
 
 // File contracts/libraries/Position.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0 <0.8.0;
 
 
@@ -1538,7 +1518,6 @@ library Position {
 
 // File contracts/libraries/Oracle.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0 <0.8.0;
 
 /// @title Oracle
@@ -1867,7 +1846,6 @@ library Oracle {
 
 // File contracts/interfaces/IERC20Minimal.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Minimal ERC20 interface for Uniswap
@@ -1923,7 +1901,6 @@ interface IERC20Minimal {
 
 // File contracts/libraries/TransferHelper.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.6.0;
 
 /// @title TransferHelper
@@ -1948,7 +1925,6 @@ library TransferHelper {
 
 // File contracts/libraries/UnsafeMath.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Math functions that do not check inputs or outputs
@@ -1969,7 +1945,6 @@ library UnsafeMath {
 
 // File contracts/libraries/FixedPoint96.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.4.0;
 
 /// @title FixedPoint96
@@ -1983,7 +1958,6 @@ library FixedPoint96 {
 
 // File contracts/libraries/SqrtPriceMath.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0;
 
 
@@ -2210,7 +2184,6 @@ library SqrtPriceMath {
 
 // File contracts/libraries/SwapMath.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity >=0.5.0;
 
 
@@ -2310,7 +2283,6 @@ library SwapMath {
 
 // File contracts/interfaces/callback/IUniswapV3MintCallback.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Callback for IUniswapV3PoolActions#mint
@@ -2332,7 +2304,6 @@ interface IUniswapV3MintCallback {
 
 // File contracts/interfaces/callback/IUniswapV3SwapCallback.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Callback for IUniswapV3PoolActions#swap
@@ -2357,7 +2328,6 @@ interface IUniswapV3SwapCallback {
 
 // File contracts/interfaces/callback/IUniswapV3FlashCallback.sol
 
-// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
 /// @title Callback for IUniswapV3PoolActions#flash
@@ -2379,7 +2349,6 @@ interface IUniswapV3FlashCallback {
 
 // File contracts/UniswapV3Pool.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
 
 
@@ -3242,7 +3211,6 @@ contract UniswapV3Pool is IUniswapV3Pool, NoDelegateCall {
 
 // File contracts/UniswapV3PoolDeployer.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
 
 contract UniswapV3PoolDeployer is IUniswapV3PoolDeployer {
@@ -3280,7 +3248,6 @@ contract UniswapV3PoolDeployer is IUniswapV3PoolDeployer {
 
 // File contracts/UniswapV3Factory.sol
 
-// SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
 
 
