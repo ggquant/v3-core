@@ -54,6 +54,7 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "flatten:factory": "hardhat flatten contracts/UniswapV3Factory.sol > flattened/UniswapV3Factory.sol"
   }
 }
